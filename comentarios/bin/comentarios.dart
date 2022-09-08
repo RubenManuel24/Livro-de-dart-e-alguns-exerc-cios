@@ -1,0 +1,17 @@
+
+/*
+ Esse import importa uma arquivo
+ e carega ele como uma variavel
+ 
+ */
+import 'package:comentarios/comentarios.dart' as comentarios;
+
+//Este é o ponto da partida da aplicaçao
+void main(List<String> arguments) {
+
+  //A funcao print imprime algo na tela
+  print('Hello world: ${comentarios.calculate()}!');
+
+
+  print("Qualquer coisa");
+}
